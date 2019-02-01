@@ -1,0 +1,89 @@
+/*currently styles implemented through this css and styles from material-ui components*/
+.header {
+    background: #3f51b5;
+    border-bottom: 1px solid #3f51b5;
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app-container {
+    background: white;
+    margin: 5px;
+    border: 1px solid #a5a5a5;
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 700px;
+    min-height: 700px;
+
+}
+
+.input-form-container {
+    background: #c6ffc9;
+}
+
+.message {
+    background: #ffffff;
+    border: 1px solid rgb(232, 232, 232);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.13)
+}
+
+.message-answer {
+    text-align: right;
+    background: rgba(86, 110, 252, 0.08);
+    border: 1px solid rgb(232, 232, 232);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.13)
+}
+
+.input {
+    background: #ffffff;
+    border: 1px solid rgb(232, 232, 232);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.13);
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion {
+    border: 2px solid #3f51b5;
+    color: #3f51b5;
+    border-radius: 15px;
+    background: #ffffff;
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.scrollbar {
+    min-height: 540px;
+    max-height: 540px;
+}
+
+.collapse {
+    float: right;
+}
+
+.container {
+    min-height: 550px;
+    max-height: 550px;
+    overflow: auto;
+}
+
+p {
+    padding-bottom:4px;
+    margin-block-start: 8px;
+    margin-block-end: 8px;
+}
+
+.minimize {
+    cursor:default;
+}
